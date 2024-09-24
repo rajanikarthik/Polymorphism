@@ -29,7 +29,9 @@ class Child(Father,Mother):
         else:                            #Failure Case
             return "Its not Pallindrome"
 
-
+c = Child(50, 'SAM', 9)
+if __name__ == "__main__":
+    print(c.palindrome())
 
 
 
